@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#">projects</a></li>
+            <li class="link"><a href="#">about me</a></li>
+            <li class="link"><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    
+    <section class="home-section">
+        <h1 class="hero-heading">My Portfolio <br> Louis Sorensen</h1>
+        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"  class="home-img"  alt="working at the computer" >
+    </section>
+
+    <section class="project-section" active>
+        <h1 class="project-heading">My projects</h1>
+        <div class = "project-container">
+            <div class = "project-card">
+                <img src="https://images.unsplash.com/photo-1624295059100-0ca889087b54?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" class="project-img" alt="a football team">
+                <div class="project-content">
+                    <h1 class="project-title">project 1</h1>
+                    <p class="project-info">
+                        A basic Explanation of xG in football
+                    </p>
+                <div class="project=btn-grp">
+                  <a href ="https://louissorensen.github.io/Basic-XG-Explanation/" class="button">Site link</a>
+                  <a href="https://github.com/LouisSorensen/Basic-XG-Explanation.git" class="button">Github Repo</a>
+                 </div>   
+            </div>
+            <div class = "project-card">
+                <img src="https://images.unsplash.com/photo-1588607327673-83b8f3791d6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80" class="project-img" alt="a quiz">
+                <div class="project-content">
+                    <h1 class="project-title">project 2</h1>
+                    <p class="project-info">
+                        A quiz about European Geography
+                    </p>
+                <div class="project=btn-grp">
+                  <a href ="https://louissorensen.github.io/week2quiz/" class="button">Site link</a>
+                  <a href="https://github.com/LouisSorensen/week2quiz.git" class="button">Github Repo</a>
+                 </div>   
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" class="about-img" alt="writing a CV">
+                <button class="download-cv-btn"> download CV</button>
+                <a href="https://1drv.ms/w/s!At28wu5Ok2vqgbpBQ2SWd6Qa0jUEVg" class="button">View CV</a>
+            </div>
+            <p class="about-info">I am currently enrolled in a coding course, as I am looking to move into software development. In the course, I am learning about HTML, CSS and Javascript. I am a history graduate with experience of teaching English as a second language in Spain and South Korea.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+    </section>    
+
+    <script src="app.js"></script>
+
+</body>
+</html>
